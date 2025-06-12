@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Satyam Shaw | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Satyam Shaw</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img src="assets/profile.jpg" alt="Profile Photo" class="profile-pic" />
+    <h2>Hi, I'm Satyam 👋</h2>
+    <p>A passionate developer specializing in .NET, C#, Azure</p>
+    <a href="#projects" class="btn">View Projects</a>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>I’m a developer and digital forensic expert currently working at TCS. I enjoy building scalable backend systems and working on cybersecurity tools.</p>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="card-grid">
+      <div class="card">
+        <h3>Forensic Disk Analyzer</h3>
+        <p>Tool to analyze file systems and carve out deleted files using C# and .NET Core.</p>
+      </div>
+      <div class="card">
+        <h3>Azure Logging with Serilog</h3>
+        <p>Enterprise-grade logging solution integrated with Azure Log Analytics.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>📧 Email: your.email@example.com</p>
+    <p>🔗 LinkedIn: <a href="https://linkedin.com/in/satyamshaw" target="_blank">satyamshaw</a></p>
+  </section>
+  <section id="contact" class="section">
+  <h2>Contact</h2>
+  <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name" required />
+
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" required />
+
+    <label for="message">Message</label>
+    <textarea name="message" id="message" rows="5" required></textarea>
+
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+</section>
+
+
+  <footer>
+    <p>© 2025 Satyam Shaw. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
