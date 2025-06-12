@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Satyam Shaw | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
 </head>
 <body>
   <header>
@@ -25,31 +28,35 @@
     <a href="#projects" class="btn">View Projects</a>
   </section>
 
-  <section id="about" class="section">
+  <section id="about" class="section" data-aos="fade-up">
     <h2>About Me</h2>
     <p>I’m a developer and digital forensic expert currently working at TCS. I enjoy building scalable backend systems and working on cybersecurity tools.</p>
   </section>
 
-  <section id="projects" class="section">
+  <section id="projects" class="section" data-aos="fade-up">
     <h2>Projects</h2>
     <div class="card-grid">
       <div class="card">
-        <h3>Forensic Disk Analyzer</h3>
-        <p>Tool to analyze file systems and carve out deleted files using C# and .NET Core.</p>
+        <h3>Shopping Application</h3>
+        <p>Microservices architecture with .NET Core MVC(.NET 8), Entity Framework Core, .NET Identity with Azure Service Bus</p>
       </div>
       <div class="card">
         <h3>Azure Logging with Serilog</h3>
         <p>Enterprise-grade logging solution integrated with Azure Log Analytics.</p>
       </div>
+      <div class="card">
+        <h3>Car Dictionary App </h3>
+        <p>Mobile app developer with .NET MAUI, implementation of CURD operation, Identity, Role management</p>
+      </div>
     </div>
   </section>
 
-  <section id="contact" class="section">
+  <section id="contact" class="section" data-aos="fade-up">
     <h2>Contact</h2>
-    <p>📧 Email: your.email@example.com</p>
+    <p>📧 Email: satyamshaw7278@gmail.com</p>
     <p>🔗 LinkedIn: <a href="https://linkedin.com/in/satyamshaw" target="_blank">satyamshaw</a></p>
   </section>
-  <section id="contact" class="section">
+  <section id="contact" class="section" data-aos="fade-up">
   <h2>Contact</h2>
   <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
     <label for="name">Name</label>
@@ -71,5 +78,15 @@
   </footer>
 
   <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 800,
+    once: true
+  });
+</script>
 </body>
 </html>
+
+
+
